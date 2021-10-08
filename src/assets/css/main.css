@@ -71,6 +71,7 @@ h4 {
 
 h5 {
   font-size: 1.25rem;
+  color: var(--textColor);
 }
 
 small,
@@ -470,6 +471,9 @@ button .contact-btn {
 .tags-list a:hover {
   color: var(--primary);
 }
+.tags p {
+  color: var(--textColor);
+}
 .recipe {
   display: block;
 }
@@ -487,7 +491,7 @@ button .contact-btn {
 .recipe p {
   margin-bottom: 0;
   line-height: 1;
-  color: var(--grey);
+  color: var(--gray);
   margin-top: 0.5rem;
 }
 

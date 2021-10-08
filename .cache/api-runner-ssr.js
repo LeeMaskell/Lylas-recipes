@@ -1,18 +1,18 @@
 var plugins = [{
       name: 'gatsby-plugin-styled-components',
-      plugin: require('/Users/lee/Documents/web_development/projects/personal_projects/lylas-recipes/node_modules/gatsby-plugin-styled-components/gatsby-ssr'),
+      plugin: require('/Users/lee/Documents/web_development/projects/personal_projects/Lylas-recipes/node_modules/gatsby-plugin-styled-components/gatsby-ssr'),
       options: {"plugins":[],"displayName":true,"fileName":true,"minify":true,"namespace":"","transpileTemplateLiterals":true,"topLevelImportPaths":[],"pure":false},
     },{
       name: 'gatsby-plugin-image',
-      plugin: require('/Users/lee/Documents/web_development/projects/personal_projects/lylas-recipes/node_modules/gatsby-plugin-image/gatsby-ssr'),
+      plugin: require('/Users/lee/Documents/web_development/projects/personal_projects/Lylas-recipes/node_modules/gatsby-plugin-image/gatsby-ssr'),
       options: {"plugins":[]},
     },{
       name: 'gatsby-plugin-webfonts',
-      plugin: require('/Users/lee/Documents/web_development/projects/personal_projects/lylas-recipes/node_modules/gatsby-plugin-webfonts/gatsby-ssr'),
+      plugin: require('/Users/lee/Documents/web_development/projects/personal_projects/Lylas-recipes/node_modules/gatsby-plugin-webfonts/gatsby-ssr'),
       options: {"plugins":[],"fonts":{"google":[{"family":"Montserrat","variants":["400"]},{"family":"Lobster","variants":["400"]}]}},
     },{
       name: 'gatsby-plugin-react-helmet',
-      plugin: require('/Users/lee/Documents/web_development/projects/personal_projects/lylas-recipes/node_modules/gatsby-plugin-react-helmet/gatsby-ssr'),
+      plugin: require('/Users/lee/Documents/web_development/projects/personal_projects/Lylas-recipes/node_modules/gatsby-plugin-react-helmet/gatsby-ssr'),
       options: {"plugins":[]},
     }]
 /* global plugins */

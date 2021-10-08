@@ -8,7 +8,6 @@ export default function Home() {
   return (
   <Layout> 
     <SEO title="Home" />   
-    {/* SEO.js gives title an arbitrary value, we fill that value with the page title, in this case 'Home Page' */}
       <main className="page">
         <header className="hero">
           <StaticImage src="../assets/images/main.jpeg" alt="eggs"
@@ -21,7 +20,6 @@ export default function Home() {
             </div>
           </div>
         </header>
-        {/* <FetchData /> */}
         <AllRecipes />
       </main>
   </Layout>

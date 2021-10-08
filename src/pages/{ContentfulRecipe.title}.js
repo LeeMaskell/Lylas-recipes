@@ -15,13 +15,13 @@ const RecipeTemplate = ({ data }) => {
             <SEO title={title} description={description}/>   
             <main className="page">
                 <div className="recipe-page">
-                    {/* hero */}
+                    
                     <section className="recipe-hero">
                         <GatsbyImage image={pathToImage} alt={title} className="about-img" />
                         <article className="recipe-info">
                             <h2>{title}</h2>
                             <p>{description}</p>
-                            {/* icons */}
+
                             <div className="recipe-icons">
                                 <article>
                                     <BsClock />
@@ -39,7 +39,7 @@ const RecipeTemplate = ({ data }) => {
                                     <p>{servings}</p>
                                 </article>
                             </div>
-                            {/* tags */}
+                            
                             <p className="recipe-tags">
                                 Tags : {tags.map((tag, index) => {
                                     return <Link to={`/${tag}`} key={index}>{tag}</Link>
@@ -47,7 +47,7 @@ const RecipeTemplate = ({ data }) => {
                             </p>
                         </article>
                     </section>
-                    {/* remainder of content */}
+                    
                     <section className="recipe-content">
                         <article>
                             <h4>instructions</h4>

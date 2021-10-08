@@ -8,6 +8,7 @@ require("dotenv").config({
 })
 module.exports = {
   /* Your site config here */
+  pathPrefix: "/Lylas-recipes",
   siteMetadata: {
     title: 'Simply Recipes',
     description: 'Nice, clean recipes site',
